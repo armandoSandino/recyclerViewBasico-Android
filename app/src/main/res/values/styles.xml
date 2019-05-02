@@ -1,0 +1,47 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/letra_azul</item>
+    </style>
+
+    <!-- esto lo agrege-->
+    <style name="Theme.ConNavigationDrawer" parent="AppTheme"/>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <!--Campo de texto-->
+    <!--Etiqueta flotante-->
+    <style name="AppTheme.FloatingLabel" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/letra_negra</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="EditText" parent="AppTheme">
+        <!-- cursor y línea normal-->
+        <item name="colorControlNormal">@color/letra_azul</item>
+        <!-- cursor y línea con foco-->
+        <item name="colorControlActivated">@color/fondo_inicio</item>
+    </style>
+    <style name="EditTextError" parent="TextAppearance.AppCompat.Caption"
+        >
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor"> @color/letra_azul</item>
+    </style>
+
+    <!-- estilos para cajas de  texto de numero -->
+    <style name="EditTextCounter" parent="TextAppearance.Design.Counter">
+        <item name="android:textColor">@color/letra_negra</item>
+    </style>
+
+    <style name="EditTextCounterOverFlow" parent="TextAppearance.Design.Counter.Overflow">
+        <item name="android:textColor">#FF7043</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FRAGMENTOS.FragmentoPerfil"
+    android:background="@color/fondo.app">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            app:cardBackgroundColor="@color/letra_blanca"
+            app:cardCornerRadius="20dp"
+            app:contentPadding="2dp"
+            app:cardElevation="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                android:padding="10dp"
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/avatar"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nombre usuario"
+                        android:textColor="@color/letra_negra"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Documento:"
+                        android:textColor="@color/letra_negra"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23424324lkas324ads34"
+                        android:textColor="@color/letra_negra"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fecha de Nacimiento:"
+                        android:textColor="@color/letra_negra"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23424324"
+                        android:textColor="@color/letra_negra"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sexo:"
+                        android:textColor="@color/letra_negra"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23424324"
+                        android:textColor="@color/letra_negra"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Correo Electronico:"
+                        android:textColor="@color/letra_negra"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23424324"
+                        android:textColor="@color/letra_negra"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            >
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                app:cardBackgroundColor="@color/celeste"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="15dp"
+                app:contentPaddingTop="3dp"
+                app:contentPaddingBottom="3dp"
+                app:contentPaddingLeft="3dp"
+                app:contentPaddingRight="3dp"
+                >
+                <Button
+                    android:id="@+id/bt_fragTipoCuenta"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textSize="16sp"
+                    android:text="Sorftweb.com"
+                    android:textColor="@color/negro"
+                    android:background="@color/celeste"
+                    />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                app:cardBackgroundColor="@color/celeste"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="15dp"
+                app:contentPaddingTop="3dp"
+                app:contentPaddingBottom="3dp"
+                app:contentPaddingLeft="3dp"
+                app:contentPaddingRight="3dp"
+                >
+                <Button
+                    android:id="@+id/bt_fragEditarCuenta"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16sp"
+                    android:text="Editar"
+                    android:textColor="@color/negro"
+                    android:background="@color/celeste"
+                    android:drawableLeft="@android:drawable/ic_menu_edit"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            app:cardBackgroundColor="@color/celeste"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:contentPaddingTop="3dp"
+            app:contentPaddingBottom="3dp"
+            app:contentPaddingLeft="3dp"
+            app:contentPaddingRight="3dp"
+            >
+            <Button
+                android:id="@+id/bt_fragDeleteCuenta"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:textSize="16sp"
+                android:text="Eliminar Cuenta"
+                android:textColor="@color/negro"
+                android:background="@color/celeste"
+                android:drawableLeft="@android:drawable/ic_menu_delete"
+                />
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

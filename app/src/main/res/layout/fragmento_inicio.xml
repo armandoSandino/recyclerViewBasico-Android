@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FRAGMENTOS.FragmentoInicio"
+    android:background="@color/fondo.app"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="8dp"
+        android:padding="9dp"
+        android:text="CasaNica"
+        android:textStyle="italic"
+        android:textColor="#fafafa"
+        android:textSize="30sp"
+        android:background="#00a78e"
+        />
+
+    <TextView
+        android:id="@+id/lb_casasDisponibles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"
+        android:text="Inmuebles disponibles"
+        android:textStyle="bold"
+        android:textColor="@color/negro"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/lb_nohaycasas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="No hay immuebles"
+        android:textStyle="bold"
+        android:textColor="@color/negro"
+        android:textSize="25sp"
+        android:visibility="gone"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recy_listar_casas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_listar_casas"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

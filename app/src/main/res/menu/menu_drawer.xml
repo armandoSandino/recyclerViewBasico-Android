@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/fondo.app"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_menu_drawer_inicio"
+            android:checked="true"
+            android:icon="@drawable/inicio"
+            android:title="@string/main.menu.item_inicio" />
+        <item
+            android:id="@+id/item_menu_drawer_cuenta"
+            android:title="Cuenta" />
+        <item android:title="Compartir">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/item_menu_drawer_chats"
+                        android:icon="@drawable/ic_chat"
+                        android:title="@string/main.menu.item_compartir" />
+                </group>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/item_menu_drawer_ayuda"
+            android:title="Ayuda y Comentarios"/>
+        <item
+            android:id="@+id/item_menu_drawer_config"
+            android:title="Configuracion"/>
+        <item
+            android:id="@+id/item_menu_drawer_acercaDe"
+            android:title="Acerca de CasaNica"/>
+
+    </group>
+
+</menu>

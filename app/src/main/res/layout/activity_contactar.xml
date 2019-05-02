@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VIEWS.Contactar"
+    android:background="@color/fondo.app"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="8dp"
+            android:padding="9dp"
+            android:text="CasaNica"
+            android:textStyle="italic"
+            android:textColor="#fafafa"
+            android:textSize="30sp"
+            android:background="#00a78e"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Contacta ahora"
+            android:textColor="@color/negro"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:text="Me gustaria recibir mas informacion del inmueble"
+            android:textColor="@color/negro"
+            android:textSize="12sp"
+            />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            app:cardBackgroundColor="@color/letra_blanca"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:contentPaddingTop="3dp"
+            app:contentPaddingBottom="3dp"
+            app:contentPaddingLeft="3dp"
+            app:contentPaddingRight="3dp"
+            >
+            <!--<android.support.design.widget.TextInputLayout
+                android:id="@+id/input_infoSolic_registrarSolic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="6dp"
+                android:padding="1dp"
+                app:errorTextAppearance="@style/EditTextError"
+                app:hintTextAppearance="@style/AppTheme.FloatingLabel"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ct_sobre_mi_registrarUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Necesito información del inmueble asdlasdlasdlmasdlmlmasdlmsadlmasdlmadslmadlsmadlsmlasdm"
+                    android:inputType="textPersonName|textCapSentences|textAutoCorrect|textAutoComplete"
+                    android:textColor="@color/letra_negra"
+                    android:theme="@style/EditText"
+                    />
+            </android.support.design.widget.TextInputLayout> -->
+
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/ct_infoSolic_registrarSolic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Necesito información del inmueble"
+                android:textColor="@color/letra_negra"
+                android:inputType="text"
+                android:theme="@style/EditText"
+                />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            app:cardBackgroundColor="@color/letra_blanca"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:contentPaddingTop="3dp"
+            app:contentPaddingBottom="3dp"
+            app:contentPaddingLeft="3dp"
+            app:contentPaddingRight="3dp"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_nombre_registrarSolic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="6dp"
+                android:padding="1dp"
+                android:hint=" Tu Nombre"
+                app:errorTextAppearance="@style/EditTextError"
+                app:hintTextAppearance="@style/AppTheme.FloatingLabel"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ct_nombre_registrarSolic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Tu Nombre"
+                    android:inputType="textPersonName|textCapSentences|textAutoCorrect|textAutoComplete"
+                    android:textColor="@color/letra_negra"
+                    android:theme="@style/EditText"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            app:cardBackgroundColor="@color/letra_blanca"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:contentPaddingTop="3dp"
+            app:contentPaddingBottom="3dp"
+            app:contentPaddingLeft="3dp"
+            app:contentPaddingRight="3dp"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_correo_registrarSolic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="6dp"
+                android:padding="1dp"
+                android:hint=" Correo Electrónico"
+                app:errorTextAppearance="@style/EditTextError"
+                app:hintTextAppearance="@style/AppTheme.FloatingLabel"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ct_correo_registrarSolic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Correo Electrónico"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/letra_negra"
+                    android:theme="@style/EditText"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            app:cardBackgroundColor="@color/letra_blanca"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:contentPaddingTop="3dp"
+            app:contentPaddingBottom="3dp"
+            app:contentPaddingLeft="3dp"
+            app:contentPaddingRight="3dp"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_telefono_registrarSolic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="6dp"
+                android:padding="1dp"
+                android:hint=" Teléfono"
+                app:errorTextAppearance="@style/EditTextError"
+                app:hintTextAppearance="@style/AppTheme.FloatingLabel"
+                app:counterEnabled="true"
+                app:counterMaxLength="8"
+                app:counterTextAppearance="@style/EditTextCounter"
+                app:counterOverflowTextAppearance="@style/EditTextCounterOverFlow"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ct_telefono_registrarSolic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Teléfono"
+                    android:inputType="phone"
+                    android:textColor="@color/letra_negra"
+                    android:backgroundTint="@color/fondo_inicio"
+                    android:theme="@style/EditText"
+                    />
+                <!--  android:drawableLeft="@android:drawable/ic_dialog_info"
+                     -->
+            </android.support.design.widget.TextInputLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_contactar"
+            android:onClick="onClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginLeft="18dp"
+            app:cardBackgroundColor="@color/celeste"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:contentPaddingTop="3dp"
+            app:contentPaddingBottom="3dp"
+            app:contentPaddingLeft="3dp"
+            app:contentPaddingRight="3dp"
+            >
+            <Button
+                android:id="@+id/bt_contactar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Contactar"
+                android:textColor="@color/letra_blanca"
+                android:background="@color/celeste"
+                android:drawableLeft="@android:drawable/ic_input_add"
+                />
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            >
+            <CheckBox
+                android:id="@+id/ch_avisos_legales"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="2"
+                android:text="Aviso legal y privacidad."
+                android:textColor="@color/letra_negra"
+                android:buttonTint="@color/letra_negra"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lb_terminosLegales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="50dp"
+            android:text="Condiciones y Terminos legales"
+            android:textColor="@color/letra_azul"
+            android:textSize="12sp"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

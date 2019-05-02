@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/action_acerca"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Acerca de" />
+        <item
+            android:id="@+id/action_salir"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Cerrar Sesion"
+            />
+    </group>
+
+</menu>

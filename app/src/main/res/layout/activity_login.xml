@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VIEWS.Login"
+    android:background="@color/fondo.app"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo_buscar"
+            android:layout_gravity="center"
+            />
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            app:cardBackgroundColor="@color/letra_blanca"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:contentPaddingTop="3dp"
+            app:contentPaddingBottom="3dp"
+            app:contentPaddingLeft="3dp"
+            app:contentPaddingRight="3dp"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_correoFormlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="6dp"
+                android:padding="1dp"
+                android:hint=" Correo Electrónico"
+                app:errorTextAppearance="@style/EditTextError"
+                app:hintTextAppearance="@style/AppTheme.FloatingLabel"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ct_correoFormlogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Correo Electrónico"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/letra_negra"
+                    android:theme="@style/EditText"
+                    />
+            </android.support.design.widget.TextInputLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            app:cardBackgroundColor="@color/letra_blanca"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:contentPaddingTop="3dp"
+            app:contentPaddingBottom="3dp"
+            app:contentPaddingLeft="3dp"
+            app:contentPaddingRight="3dp"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_passFormlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="6dp"
+                android:padding="1dp"
+                android:hint=" Contraseña"
+                app:errorTextAppearance="@style/EditTextError"
+                app:hintTextAppearance="@style/AppTheme.FloatingLabel"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ct_passFormlogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Contraseña"
+                    android:inputType="textPassword"
+                    android:textColor="@color/letra_negra"
+                    android:theme="@style/EditText"
+                    />
+            </android.support.design.widget.TextInputLayout>
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:id="@+id/layout_animado"
+            android:layout_weight="2"
+            >
+            <CheckBox
+                android:id="@+id/ch_recordar_credencialesFormlogin"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:text="Recordar Credenciales"
+                android:textColor="@color/letra_negra"
+                android:buttonTint="@color/letra_negra"
+                />
+
+            <ImageView
+                android:id="@+id/imv_popup_listCuentasLogin"
+                android:layout_width="34dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_menu_more"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginLeft="18dp"
+            app:cardBackgroundColor="@color/celeste"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:contentPaddingTop="3dp"
+            app:contentPaddingBottom="3dp"
+            app:contentPaddingLeft="3dp"
+            app:contentPaddingRight="3dp"
+            >
+            <Button
+                android:id="@+id/bt_aceptarFormlogin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Iniciar"
+                android:textColor="@color/letra_blanca"
+                android:background="@color/celeste"
+                />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="30dp"
+            android:text="¿No tienes una cuenta?"
+            android:textColor="@color/letra_negra"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/lb_crearCuentaFormlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:text="Crear cuenta"
+            android:textColor="@color/letra_azul"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+</ScrollView>
